@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="description" content="Donasi Server Sahabat Naufal FFA">
+		<title> Donasi - Sahabat Naufal </title>
+		<!-- Bootstrap v3.3.7 -->
+		<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+		<!-- Font Awesome v4.7.0 -->
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+		<!-- Main Style -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/temp.css">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="../assets/img/Naufalnobg.png">
+	</head>
+
+	<body>
+    <!-- jQuery v3.2.1 -->
+		<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+		<!-- Bootstrap v3.3.7 -->
+		<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+		<!-- jQuery ScrollUp v1.1 -->
+		<script type="text/javascript" src="../assets/js/jquery.scrollUp.min.js"></script>
+		<!-- Main Javascript -->
+		<script type="text/javascript" src="../assets/js/main.js"></script>
+		<!-- Google Recaptcha -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+    
+		<!-- Header -->
+<header id="header">
+
+  <div class="header-top" id="headerSticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header-top-right">
+            <nav class="navbar">
+
+              <!-- Toggle Mobile Display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerMenuSticky" aria-expande="false">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div> <!-- /navbar-header -->
+
+            <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="headerMenuSticky">
+                <ul class="nav navbar-nav">
+                  <li><a href="../index.html">Beranda</a></li>
+                  <li><a href="indexffa.html">Beranda Utama</a></li>
+                  <li><a href="donasiffa.html">Donasi</a></li>
+                  <li><a href="spekw10ffa.html">Petunjuk</a></li>
+                  <li><a href="peraturanffa.html">Peraturan</a></li>
+                  <li><a href="faqclearcache.html">FAQ</a></li>
+                  <li><a href="keybindffa.html">Key</a></li>
+                  <li><a href="timffa2.html">Tim</a></li>
+                  <li><a href="galeriffa.html">Galeri</a></li>
+                  <li><a href="https://guideffa.sahabatnaufal.my.id/" target="_blank">Docs</a></li>
+                  <li><a href="" class="header-register">Connect Server</a></li>
+                </ul> <!-- /navbar-nav -->
+              </div> <!-- /headerMenu -->
+            </nav> <!-- /navbar -->
+          </div> <!-- /header-top-right -->
+        </div> <!-- /col-md-9 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  </div> <!-- /header-top -->
+
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-12">
+          <div class="header-top-right">
+            <nav class="navbar">
+
+              <!-- Toggle Mobile Display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerMenu" aria-expanded="false">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div> <!-- /navbar-header -->
+
+              <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="headerMenu">
+                <ul class="nav navbar-nav">
+                  <li><a href="../index.html">Beranda</a></li>
+                  <li><a href="indexffa.html">Beranda Utama</a></li>
+                  <li><a href="donasiffa.html">Donasi</a></li>
+                  <li><a href="spekw10ffa.html">Petunjuk</a></li>
+                  <li><a href="peraturanffa.html">Peraturan</a></li>
+                  <li><a href="faqclearcache.html">FAQ</a></li>
+                  <li><a href="keybindffa.html">Key</a></li>
+                  <li><a href="timffa2.html">Tim</a></li>
+                  <li><a href="galeriffa.html">Galeri</a></li>
+                  <li><a href="https://guideffa.sahabatnaufal.my.id/" target="_blank">Docs</a></li>
+                  <li><a href="" class="header-register">Connect Server</a></li>
+                </ul> <!-- /navbar-nav -->
+              </div> <!-- /headerMenu -->
+            </nav> <!-- /navbar -->
+          </div> <!-- /header-top-right -->
+        </div> <!-- /col-md-9 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  </div> <!-- /header-top -->
+
+</header> <!-- /header -->
+
+<script type="text/javascript">
+var headerSticky = $('#headerSticky');
+headerSticky.hide();
+function toggleHeader() {
+  headerSticky.hide(400, 'swing');
+}
+$(document).ready(function() {
+  $(window).on("scroll", function() {
+    var fromTop = window.pageYOffset;
+    if (fromTop > 200) {
+      headerSticky.show(400, 'swing');
+    } else {
+      headerSticky.hide(400, 'swing');
+    }
+  });
+});
+</script>
+
+<section id="theme-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>Donasi</h4>
+        <h1>SAHABAT NAUFAL</h1>
+        <br>
+        <img src="../assets/img/Naufal.jpg" style="width:55%;">
+      </div> <!-- /col-sm-6 -->
+      <div class="col-sm-6">
+        <p>Donasi tidak bisa diwakilkan!</p>
+        <br>
+        <p>Donasi bersifat <b>SUKARELA</b>, donasi yang kalian berikan untuk memastikan server tetap hidup. Tidak ada istilah pembelian mobil, atau pembelian rumah. <u>Dana yang sudah ditransfer tidak dapat dikembalikan</u>.</p>
+        <br>
+        <p><b>Pembayaran donasi hanya melalui bank transfer ke:<br><span style="font-size:18px;"></span></b></p>
+        <br>
+        <p>Pilih paket di bawah.</p>
+        <br>
+        <p>Bila ada pertanyaan, bisa langsung tanyakan di <b>Discord Admin Resmi Sahabat Naufal:</b></p>
+        <p><b>- Naufal#8714</b></p>
+        <p><b>- didit#1114</b></p>
+        <p><b>- Gerald#8156</b></p>
+      </div> <!-- /col-sm-6 -->
+    </div> <!-- /row -->
+  </div> <!-- /container -->
+</section>
+
+<section id="policy-menu">
+  <div class="policy-menu-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul>
+            <li><a href="donasiffa.html">Donasi</a></li>
+            <li><a href="ketentuandonasiffa.html">Ketentuan Donasi</a></li>
+            <li><a href="konfirmasidonasiffa.html">konfirmasi Donasi</a></li>
+          </ul>
+        </div> <!-- /col-md-12 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  </div> <!-- /policy-menu-body -->
+</section> <!-- /policy-menu -->
+
+<section id="policy-content">
+    <div class="container">
+      <div class="policy-content-body">
+        <div class="row">
+          <div class="col-md-12">
+          
+            <h3>Ketentuan Donasi</h3>
+            <p><b>1.</b> Dana yang sudah ditransfer tidak dapat dikembalikan </p>
+            <p><b>2.</b> Apabila terjadi rollback karena kesalahan server, bisa buka tiket kembali untuk konfirmasi dan sertakan bukti transfer </p>
+            <p><b>3.</b> Upgrade Prioritas batas maksimal 5 hari lewat dari 5 hari sudah tidak bisa untuk upgrade donasi </p>
+            <p><b>4.</b> Kami tidak bertanggung jawab apabila pengiriman selain ke rekening yg tertera di atas, hati hati penipuan atas nama Central Indonesia FFA dan semua proses donasi kami sesuai dengan tahapan </p>
+            <br>
+  
+            <div style="text-align:center;">
+                 <a href="https://discord.gg/jfHW784pYH" class="btn btn-default">JOIN DISCORD</a>
+            </div>
+          </div> <!-- /col-md-12 -->
+        </div> <!-- /row -->
+      </div> <!-- /policy-content-body -->
+    </div> <!-- /container -->
+  </section> <!-- /policy-content -->
+
+<!-- Footer -->
+<footer id="footer">
+
+  <!-- Footer Middle -->
+  <div class="footer-middle hidden-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="../assets/img/Naufalnobg.png" alt="Sahabat Naufal">
+        </div> <!-- /col-sm-2 -->
+
+        <div class="col-sm-2">
+          <h4>Owner</h4>
+          <ul class="footer-menu">
+            <li>Naufal Salvatrucha</li>
+            <li></li>
+            <li></li>
+          </ul> <!-- /footer-menu -->
+          </div> <!-- /col-sm-2 -->
+
+        <div class="col-sm-2">
+          <h4>Management</h4>
+          <ul class="footer-menu">
+            <li>Gerald</li>
+            <li>Bintang Viditya Putra</li>
+          </ul> <!-- /footer-menu -->
+        </div> <!-- /col-sm-2 -->
+
+        <div class="col-sm-2">
+          <h4>Sosial Media</h4>
+          <ul class="footer-menu">
+            <li><a href="https://www.instagram.com/naufal.salvatrucha/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/Naufal.Mulyarizki/">Facebook</a></li>
+            <li><a href="https://github.com/naufalmulyarizki">Github</a></li>
+            <li><a href="https://www.tiktok.com/@naufal.salvatrucha">TikTok</a></li>
+            <li><a href="https://steamcommunity.com/id/naufalsalvatrucha/">Steam</a></li>
+            <li><a href="https://open.spotify.com/user/67dw5dxfmes1zt6u31cpdgkgl?si=59acee0a401f473e">Spotify</a></li>
+          </ul> <!-- /footer-menu -->
+        </div> <!-- /col-sm-2 -->
+
+        <div class="col-sm-2">
+          <h4>Komunitas</h4>
+          <ul class="footer-menu">
+            <li><a target="_blank" href="https://discord.gg/VXtgD84">Discord</a></li>
+          </ul> <!-- /footer-menu -->
+        </div> <!-- /col-sm-2 --> 
+
+        <div class="col-sm-2">
+          <h4>Kunjungi</h4>
+          <ul class="footer-menu">
+            <li><a target="_blank" href="https://discord.gg/kVkHtH3RgT">Discord Sahabat Naufal</a></li>
+            <li><a target="_blank" href="https://wiki.indopride.id/index.php?title=Salvatrucha">Wiki Indopride Keluarga Salvatrucha</a></li>
+            <li><a target="_blank" href="https://wiki.indopride.id/index.php?title=Naufal_Salvatrucha">Wiki Indopride Naufal Salvatrucha</a></li>
+            <li><a target="_blank" href="https://guideffa.sahabatnaufal.my.id/">Docs</a></li>
+          <ul> <!-- /footer-menu -->
+        </div> <!-- /col-sm-2 --> 
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  </div> <!-- /footer-middle -->
+  
+  <!-- Footer Mobile -->
+  <div class="footer-mobile hidden-lg hidden-md hidden-sm">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#tourBody">
+              <h4>Owner</h4>
+            </div> <!-- /card-header -->
+            <div id="tourBody" class="card-body collapse">
+              <ul class="footer-menu">
+                <li>Naufal Salvatrucha</li>
+              </ul> <!-- /footer-menu -->
+            </div> <!-- /card-body -->
+          </div> <!-- /card -->
+        </div> <!-- /col-md-12 -->
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#customerBody">
+              <h4>Management</h4>
+            </div> <!-- /card-header -->
+            <div id="customerBody" class="card-body collapse">
+              <ul class="footer-menu">
+                <li>Gerald</li>
+                <li>Bintang Viditya Putra</li>
+              </ul> <!-- /footer-menu -->
+            </div> <!-- /card-body -->
+          </div> <!-- /card -->
+        </div> <!-- /col-md-12 -->
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#companyBody">
+              <h4>Sosial Media</h4>
+            </div> <!-- /card-header -->
+            <div id="companyBody" class="card-body collapse">
+              <ul class="footer-menu">
+                <li><a target="_blank" href="https://discord.gg/kVkHtH3RgT">Discord Sahabat Naufal</a></li>
+                <li><a target="_blank" href="https://wiki.indopride.id/index.php?title=Salvatrucha">Wiki Indopride Keluarga Salvatrucha</a></li>
+                <li><a target="_blank" href="https://wiki.indopride.id/index.php?title=Naufal_Salvatrucha">Wiki Indopride Naufal Salvatrucha</a></li>
+                <li><a target="_blank" href="https://guideffa.sahabatnaufal.my.id/">Docs</a></li>
+              </ul> <!-- /footer-menu -->
+            </div> <!-- /card-body -->
+          </div> <!-- /card -->
+        </div> <!-- /col-md-12 -->
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#communityBody">
+              <h4>Komunitas</h4>
+            </div> <!-- /card-header -->
+            <div id="communityBody" class="card-body collapse">
+              <ul class="footer-menu">
+                <li><a target="_blank" href="https://discord.gg/VXtgD84">Discord</a></li>
+              </ul> <!-- /footer-menu -->
+            </div> <!-- /card-body -->
+          </div> <!-- /card -->
+        </div> <!-- /col-md-12 -->
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#followBody">
+              <h4>Kunjungi</h4>
+            </div> <!-- /card-header -->
+            <div id="followBody" class="card-body collapse">
+              <ul class="footer-menu">
+                <li><a target="_blank" href="https://discord.gg/kVkHtH3RgT">Discord Sahabat Naufal</a></li>
+                <li><a target="_blank" href="https://wiki.indopride.id/index.php?title=Salvatrucha">Wiki Indopride Keluarga Salvatrucha</a></li>
+                <li><a target="_blank" href="https://wiki.indopride.id/index.php?title=Naufal_Salvatrucha">Wiki Indopride Naufal Salvatrucha</a></li>
+                <li><a target="_blank" href="https://guideffa.sahabatnaufal.my.id/">Docs</a></li>
+              </ul> <!-- /footer-menu -->
+            </div> <!-- /card-body -->
+          </div> <!-- /card -->
+        </div> <!-- /col-md-12 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+  </div> <!-- /footer-mobile -->
+
+</footer>
+			</body>
+</html>
